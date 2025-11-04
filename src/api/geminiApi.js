@@ -32,7 +32,7 @@
         
             try {
                 const response = await axios({
-                    url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${geminiApiKey}`,
+                    url: `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=${geminiApiKey}`,
                     method: "post",
                     data: {
                         contents: [
